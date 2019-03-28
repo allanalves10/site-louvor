@@ -1,0 +1,89 @@
+/* Meu primeiro arquivo css*/
+p {
+  color: #000000;
+  text-align: center;
+  text-shadow: 1px 1px 1px 1px #111111;
+  font-size: 20px;
+  font-family: Helvetica, Arial;
+}
+body {
+  background-color: #ffffff;
+}
+li {
+  color: #ffffff;
+}
+h1 {
+  color: red;
+  text-shadow: 1px 1px 1px 1px #111111;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+header {
+  background-color: #000000;
+  height: 100px;
+  padding: 15px;
+  background-image: -moz-linear-gradient(#000000, #111111);
+  background-image: -webkit-linear-gradient(#000000, #111111);
+}
+footer {
+  color: #ffffff;
+  text-shadow: 1px 1px 1px 1px #111111;
+  clear: both;
+  background-color: #000000;
+  height: 30px;
+  text-align: center;
+  padding: 20px;
+  background-image: -moz-linear-gradient(#000000, #111111);
+  background-image: -webkit-linear-gradient(#000000, #111111);
+}
+#div_principal {
+  background-image: url("notas.jpg");
+  clear: both;
+  background-color: white;
+  background-size: 100%;
+  min-height: 361px;
+  padding: 100px 0 0 0;
+}
+#logo {
+  float: left;
+}
+#menu {
+  margin-top: 35px;
+  float: right;
+}
+
+#menu a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+#menu a {
+  padding: 62px 20px;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 1px 1pxs #111111;
+}
+/*#div_esquerda {
+  background-color: red;
+  min-height: 200px;
+  width: 60%;
+  float: left;
+}
+#div_direita {
+  background-color: yellow;
+  min-height: 200px;
+  width: 40%;
+  float: right;
+}*/
+.container {
+  width: 960px;
+  margin: auto;
+}
+.efeito {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 80px, 0, 80px, 0;
+}
